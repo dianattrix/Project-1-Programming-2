@@ -6,7 +6,7 @@
 
 
 ProductoPerecedero::ProductoPerecedero() {
-    fechaVencimiento = NULL;
+    fechaVencimiento = 0;
 }
 
 ProductoPerecedero::ProductoPerecedero(string nombre, int precio, int cantidad, Fecha fechaVencimiento) : Producto(
